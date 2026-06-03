@@ -20,7 +20,7 @@ std::string join_csv_row(const std::vector<std::string>& row) {
 }
 
 void print_usage() {
-    std::cout << "Usage: csvdb_cli --csv <file.csv> --query \"SELECT ...\" [--output result.csv]\\n";
+    std::cout << "Usage: csvdb_cli --csv <file.csv> --query \"SELECT ...\" [--output result.csv]\n";
 }
 
 }  // namespace
